@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/assets/css/custom.css";
 import "../src/assets/css/fontawesome.css";
+import "../src/assets/css/animate.min.css";
 // import "../src/assets/js/fontawesome";
 // import "../src/assets/css/all.css";
 
