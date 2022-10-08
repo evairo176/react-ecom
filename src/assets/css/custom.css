@@ -9,6 +9,49 @@
 @import "navMenuMobile.css";
 @import "typo.css";
 
+@media (min-width: 640px) and (max-width: 720px) {
+  .section-title h2:before {
+    display: none;
+  }
+
+  .section-title h2:after {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .section-title h2:before {
+    display: none;
+  }
+  .section-title h2:after {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  /* p:before {
+    content: " ";
+    width: 50px;
+    position: absolute;
+    background: #dfa778;
+    height: 2px;
+    top: 200px;
+    right: 10px;
+  } */
+  .section-title h2:before {
+    display: none;
+  }
+  .section-title h2:after {
+    display: none;
+  }
+  .image-box img {
+    width: 100px !important;
+    transition: all 0.3s;
+    display: block;
+    height: 200px !important;
+    transform: scale(1);
+  }
+}
 body {
-  background: aquamarine;
+  /* background: aquamarine; */
 }
