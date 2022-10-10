@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
-import NavMenuDesktop from "../components/cummon/NavMenuDesktop";
+import NavMenuMobile from "../components/cummon/NavMenuMobile";
+// import NavMenuDesktop from "../components/cummon/NavMenuDesktop";
 import Categories from "../components/home/Categories";
 import Collection from "../components/home/Collection";
 import FeatureProducts from "../components/home/FeatureProducts";
@@ -10,7 +11,8 @@ export class HomePage extends Component {
   render() {
     return (
       <Fragment>
-        <NavMenuDesktop />
+        <NavMenuMobile />
+        {/* <NavMenuDesktop /> */}
         <HomeTop />
         <FeatureProducts />
         <NewArrival />

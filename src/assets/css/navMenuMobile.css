@@ -32,7 +32,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 7;
+  z-index: 100;
   right: 0;
   bottom: 0;
   cursor: pointer;
@@ -40,7 +40,4 @@
 }
 .ContentOverlayClose {
   display: none;
-}
-.satu {
-  color: #161616;
 }

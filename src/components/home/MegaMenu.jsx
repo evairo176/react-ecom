@@ -23,6 +23,7 @@ class MegaMenu extends Component {
           panel.style.maxHeight = null;
         } else {
           panel.style.maxHeight = panel.scrollHeight + "px";
+          console.log(panel.style.maxHeight);
         }
       });
     }
@@ -42,6 +43,21 @@ class MegaMenu extends Component {
             </button>
             <div className="panel">
               <ul>
+                <li>
+                  <Link to="#" className="accordionItem">
+                    Man T-shirt
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="accordionItem">
+                    Man T-shirt
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="accordionItem">
+                    Man T-shirt
+                  </Link>
+                </li>
                 <li>
                   <Link to="#" className="accordionItem">
                     Man T-shirt
