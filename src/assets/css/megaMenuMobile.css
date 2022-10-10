@@ -1,4 +1,4 @@
-.accordion {
+.accordionMobile {
   background-color: #f8f8f8;
   color: #444;
   cursor: pointer;
@@ -15,12 +15,12 @@
   box-shadow: 0 0 2px 0 rgba(57, 78, 234, 0.1);
 }
 .active,
-.accordion:hover {
+.accordionMobile:hover {
   color: #ffffff;
   font-weight: 400;
   background-color: #051b35;
 }
-.accordion:after {
+.accordionMobile:after {
   content: "\276F";
   color: #c2c2c2;
   float: right;
@@ -39,7 +39,7 @@ hover {
   z-index: 0;
   transition: max-height 0.2s ease-out;
 }
-.accordionMenuDiv {
+.accordionMobileMenuDiv {
   width: 100%;
   direction: ltr;
   font-family: "Roboto Condensed", sans-serif !important;
@@ -51,33 +51,33 @@ hover {
   scrollbar-color: #e9e9e9 #ffffff !important;
 }
 
-.accordionMenuDiv::-webkit-scrollbar {
+.accordionMobileMenuDiv::-webkit-scrollbar {
   width: 10px !important;
 }
 
-.accordionMenuDiv::-webkit-scrollbar-thumb {
+.accordionMobileMenuDiv::-webkit-scrollbar-thumb {
   background: #dedede !important;
 }
 
-.accordionMenuDiv::-webkit-scrollbar-thumb:hover {
+.accordionMobileMenuDiv::-webkit-scrollbar-thumb:hover {
   background: #b8c047 !important;
 }
 
-.accordionMenuDiv::-webkit-scrollbar-track {
+.accordionMobileMenuDiv::-webkit-scrollbar-track {
   background: #f4f4f4 !important;
 }
 
-.accordionMenuDivInside {
+.accordionMobileMenuDivInside {
   direction: ltr;
 }
-.accordionMenuIcon {
+.accordionMobileMenuIcon {
   width: 20px;
   height: auto;
 }
-.accordionItem {
+.accordionMobileItem {
   color: #444;
   text-decoration: none;
 }
-.accordionItem:hover {
+.accordionMobileItem:hover {
   text-decoration: none;
 }

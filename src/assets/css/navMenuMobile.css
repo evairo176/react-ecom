@@ -9,21 +9,20 @@
   overflow-x: hidden;
   font-size: 16px;
   padding-top: 40px;
-  transition: 0.1s;
+  transition: 0.5s;
   background-color: #ffffff;
   box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
 }
 .sideNavClose {
   height: 100%;
-  width: 0px;
+  /* width: 0px; */
   position: fixed;
   top: 0;
   font-size: 20px;
-  left: 0;
+  left: -300px;
   z-index: 10;
   overflow-x: hidden;
-  transition: 0.1s;
-  background-color: #161616;
+  transition: 0.5s;
   box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
 }
 .ContentOverlayOpen {
@@ -36,8 +35,10 @@
   right: 0;
   bottom: 0;
   cursor: pointer;
+  transition: 0.5s;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .ContentOverlayClose {
+  transition: 0.5s;
   display: none;
 }

@@ -1,14 +1,11 @@
-import {
-  faBars,
-  faCartShopping,
-  faHome,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component, Fragment } from "react";
 import { Container } from "react-bootstrap";
 import ProgressBar from "react-progressbar-on-scroll";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/easyshop.png";
+import MegaMenuMobile from "../home/MegaMenuMobile";
 export class NavMenuMobile extends Component {
   constructor() {
     super();
@@ -62,7 +59,7 @@ export class NavMenuMobile extends Component {
                 <button className="cart-btn" to="#">
                   <FontAwesomeIcon icon={faCartShopping} size="lg" />
                   <sup>
-                    <span className="badge text-white bg-success">5</span>
+                    <span className="badge text-white bg-success">5 Items</span>
                   </sup>
                 </button>
               </div>
@@ -70,11 +67,12 @@ export class NavMenuMobile extends Component {
           </Container>
           <div className={this.state.sideNavState}>
             <hr className="w-80" />
-            <div className="list-group">
+            <MegaMenuMobile />
+            {/* <div className="list-group">
               <Link className="list-group-item nav-font nav-item-menu list-group-item-action">
                 <FontAwesomeIcon className="mr-2" icon={faHome} /> Home
               </Link>
-            </div>
+            </div> */}
           </div>
           <div
             onClick={this.ContentOverlayClickHandler}

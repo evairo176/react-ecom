@@ -45,7 +45,9 @@ export class NavMenuDesktop extends Component {
                   <Link className="nav-link" to="#">
                     <FontAwesomeIcon icon={faCartShopping} size="lg" />
                     <sup>
-                      <span className="badge text-white bg-success">5</span>
+                      <span className="badge text-white bg-success">
+                        5 Items
+                      </span>
                     </sup>
                   </Link>
                   <Button variant="outline-secondary">

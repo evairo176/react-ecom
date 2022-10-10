@@ -5,9 +5,11 @@
 @import "card.css";
 @import "footer.css";
 @import "megaMenu.css";
+@import "megaMenuMobile.css";
 @import "navMenuDesktop.css";
 @import "navMenuMobile.css";
 @import "typo.css";
+@import "responsive.css";
 
 @media (min-width: 640px) and (max-width: 720px) {
   .section-title h2:before {
