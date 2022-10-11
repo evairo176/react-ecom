@@ -1,23 +1,56 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component, Fragment } from "react";
-import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
+import { Button, Form, Nav, Navbar } from "react-bootstrap";
 import ProgressBar from "react-progressbar-on-scroll";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/easyshop.png";
 import {
+  faBars,
   faBell,
   faCartShopping,
   faMobile,
   faSignInAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import MegaMenuMobile from "../home/MegaMenuMobile";
 
 export class NavMenuDesktop extends Component {
+  constructor() {
+    super();
+    this.state = {
+      sideNavState: "sideNavClose",
+      ContentOverState: "ContentOverlayClose",
+    };
+  }
+  menuBarClickHandler = () => {
+    this.sideNaveOpenClose();
+  };
+  ContentOverlayClickHandler = () => {
+    this.sideNaveOpenClose();
+  };
+  sideNaveOpenClose = () => {
+    let sideNavState = this.state.sideNavState;
+
+    if (sideNavState === "sideNavOpen") {
+      this.setState({
+        sideNavState: "sideNavClose",
+        ContentOverState: "ContentOverlayClose",
+      });
+    } else {
+      this.setState({
+        sideNavState: "sideNavOpen",
+        ContentOverState: "ContentOverlayOpen",
+      });
+    }
+  };
   render() {
     return (
       <Fragment>
         <div className="topSectionDown">
           <Navbar collapseOnSelect expand="lg" fixed={"top"} bg="light">
-            <Container>
+            <div className="container-fluid">
+              <button onClick={this.menuBarClickHandler} className="btn" to="#">
+                <FontAwesomeIcon icon={faBars} size="lg" />
+              </button>
               <Link className="navbar-brand" to="/">
                 <img src={logo} alt="" />
               </Link>
@@ -55,8 +88,17 @@ export class NavMenuDesktop extends Component {
                   </Button>
                 </Nav>
               </Navbar.Collapse>
-            </Container>
+            </div>
           </Navbar>
+          <div className={this.state.sideNavState}>
+            <hr className="w-80" />
+            <MegaMenuMobile />
+            {/* <div className="list-group">
+              <Link className="list-group-item nav-font nav-item-menu list-group-item-action">
+                <FontAwesomeIcon className="mr-2" icon={faHome} /> Home
+              </Link>
+            </div> */}
+          </div>
         </div>
         <div>
           <ProgressBar

@@ -7,6 +7,7 @@ import FeatureProducts from "../components/home/FeatureProducts";
 import HomeTop from "../components/home/HomeTop";
 import NewArrival from "../components/home/NewArrival";
 import HomeTopMobile from "../components/home/HomeTopMobile";
+import FooterDesktop from "../components/cummon/FooterDesktop";
 
 export class HomePage extends Component {
   render() {
@@ -24,6 +25,7 @@ export class HomePage extends Component {
         <NewArrival />
         <Collection />
         <Categories />
+        <FooterDesktop />
       </Fragment>
     );
   }
