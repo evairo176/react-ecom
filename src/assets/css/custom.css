@@ -10,6 +10,9 @@
 @import "navMenuMobile.css";
 @import "typo.css";
 @import "responsive.css";
+@import "login.css";
+@import "cummon.css";
+@import "productDetails.css";
 
 @media (min-width: 640px) and (max-width: 720px) {
   .section-title h2:before {

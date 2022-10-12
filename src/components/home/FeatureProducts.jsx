@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export class FeatureProducts extends Component {
   render() {
@@ -11,82 +12,106 @@ export class FeatureProducts extends Component {
           </div>
           <div className="row">
             <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-              <div className="card image-box">
-                <img
-                  className="center"
-                  src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
-                  alt=""
-                />
-                <div className="card-body">
-                  <div className="product-name-on-card">SAMSUNG Galaxy F13</div>
-                  <div className="product-price-on-card">Price : $100</div>
+              <Link to="/productdetails">
+                <div className="card image-box">
+                  <img
+                    className="center"
+                    src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
+                    alt=""
+                  />
+                  <div className="card-body">
+                    <div className="product-name-on-card">
+                      SAMSUNG Galaxy F13
+                    </div>
+                    <div className="product-price-on-card">Price : $100</div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-              <div className="card image-box">
-                <img
-                  className="center"
-                  src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
-                  alt=""
-                />
-                <div className="card-body">
-                  <div className="product-name-on-card">SAMSUNG Galaxy F13</div>
-                  <div className="product-price-on-card">Price : $100</div>
+              <Link to="/productdetails">
+                <div className="card image-box">
+                  <img
+                    className="center"
+                    src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
+                    alt=""
+                  />
+                  <div className="card-body">
+                    <div className="product-name-on-card">
+                      SAMSUNG Galaxy F13
+                    </div>
+                    <div className="product-price-on-card">Price : $100</div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-              <div className="card image-box">
-                <img
-                  className="center"
-                  src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
-                  alt=""
-                />
-                <div className="card-body">
-                  <div className="product-name-on-card">SAMSUNG Galaxy F13</div>
-                  <div className="product-price-on-card">Price : $100</div>
+              <Link to="/productdetails">
+                <div className="card image-box">
+                  <img
+                    className="center"
+                    src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
+                    alt=""
+                  />
+                  <div className="card-body">
+                    <div className="product-name-on-card">
+                      SAMSUNG Galaxy F13
+                    </div>
+                    <div className="product-price-on-card">Price : $100</div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-              <div className="card image-box">
-                <img
-                  className="center"
-                  src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
-                  alt=""
-                />
-                <div className="card-body">
-                  <div className="product-name-on-card">SAMSUNG Galaxy F13</div>
-                  <div className="product-price-on-card">Price : $100</div>
+              <Link to="/productdetails">
+                <div className="card image-box">
+                  <img
+                    className="center"
+                    src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
+                    alt=""
+                  />
+                  <div className="card-body">
+                    <div className="product-name-on-card">
+                      SAMSUNG Galaxy F13
+                    </div>
+                    <div className="product-price-on-card">Price : $100</div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-              <div className="card image-box">
-                <img
-                  className="center"
-                  src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
-                  alt=""
-                />
-                <div className="card-body">
-                  <div className="product-name-on-card">SAMSUNG Galaxy F13</div>
-                  <div className="product-price-on-card">Price : $100</div>
+              <Link to="/productdetails">
+                <div className="card image-box">
+                  <img
+                    className="center"
+                    src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
+                    alt=""
+                  />
+                  <div className="card-body">
+                    <div className="product-name-on-card">
+                      SAMSUNG Galaxy F13
+                    </div>
+                    <div className="product-price-on-card">Price : $100</div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-              <div className="card image-box">
-                <img
-                  className="center"
-                  src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
-                  alt=""
-                />
-                <div className="card-body">
-                  <div className="product-name-on-card">SAMSUNG Galaxy F13</div>
-                  <div className="product-price-on-card">Price : $100</div>
+              <Link to="/productdetails">
+                <div className="card image-box">
+                  <img
+                    className="center"
+                    src="https://rukminim1.flixcart.com/image/416/416/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70"
+                    alt=""
+                  />
+                  <div className="card-body">
+                    <div className="product-name-on-card">
+                      SAMSUNG Galaxy F13
+                    </div>
+                    <div className="product-price-on-card">Price : $100</div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

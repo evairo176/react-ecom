@@ -110,3 +110,20 @@
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0s;
 }
+.btn:focus {
+  box-shadow: none;
+}
+
+.site-btn-login {
+  font-weight: 300;
+  padding: 5px;
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white !important;
+  background: #051b35 !important;
+}
+
+.site-btn {
+  font-weight: 300;
+  padding: 5px;
+}

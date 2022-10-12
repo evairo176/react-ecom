@@ -1,35 +1,24 @@
 import React, { Component, Fragment } from "react";
 import NavMenuMobile from "../components/cummon/NavMenuMobile";
 import NavMenuDesktop from "../components/cummon/NavMenuDesktop";
-import Categories from "../components/home/Categories";
-import Collection from "../components/home/Collection";
-import FeatureProducts from "../components/home/FeatureProducts";
-import HomeTop from "../components/home/HomeTop";
-import NewArrival from "../components/home/NewArrival";
-import HomeTopMobile from "../components/home/HomeTopMobile";
 import FooterDesktop from "../components/cummon/FooterDesktop";
 import FooterMobile from "../components/cummon/FooterMobile";
+import UserLogin from "../components/cummon/UserLogin";
 
-export class HomePage extends Component {
+export class UserLoginPage extends Component {
   componentDidMount() {
     window.scroll(0, 0);
   }
-
   render() {
     return (
       <Fragment>
         <div className="Desktop">
           <NavMenuDesktop />
-          <HomeTop />
         </div>
         <div className="Mobile">
           <NavMenuMobile />
-          <HomeTopMobile />
         </div>
-        <FeatureProducts />
-        <NewArrival />
-        <Collection />
-        <Categories />
+        <UserLogin />
         <div className="Desktop">
           <FooterDesktop />
         </div>
@@ -41,4 +30,4 @@ export class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default UserLoginPage;

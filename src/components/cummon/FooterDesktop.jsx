@@ -44,16 +44,24 @@ export class FooterDesktop extends Component {
                 <br />
                 <Link className="footer-link">Company Profile</Link>
                 <br />
-                <Link className="footer-link">Contact us</Link>
+                <Link to="/contact" className="footer-link">
+                  Contact us
+                </Link>
                 <br />
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-2">
                 <h5 className="footer-menu-title">MORE INFO</h5>
-                <Link className="footer-link">How To Purchase</Link>
+                <Link to="/purchase" className="footer-link">
+                  How To Purchase
+                </Link>
                 <br />
-                <Link className="footer-link">Privacy Policy</Link>
+                <Link to="/privacy" className="footer-link">
+                  Privacy Policy
+                </Link>
                 <br />
-                <Link className="footer-link">Refund Policy</Link>
+                <Link to="/refund" className="footer-link">
+                  Refund Policy
+                </Link>
                 <br />
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-2">

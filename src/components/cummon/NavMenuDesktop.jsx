@@ -8,6 +8,7 @@ import {
   faBars,
   faBell,
   faCartShopping,
+  faHeart,
   faMobile,
   faSignInAlt,
 } from "@fortawesome/free-solid-svg-icons";
@@ -67,6 +68,12 @@ export class NavMenuDesktop extends Component {
                 </Form>
                 <Nav>
                   <Link className="nav-link" to="#">
+                    <FontAwesomeIcon icon={faHeart} size="lg" />
+                    <sup>
+                      <span className="badge text-white bg-danger">5</span>
+                    </sup>
+                  </Link>
+                  <Link className="nav-link" to="#">
                     <FontAwesomeIcon icon={faBell} size="lg" />
                     <sup>
                       <span className="badge text-white bg-danger">5</span>
@@ -83,9 +90,9 @@ export class NavMenuDesktop extends Component {
                       </span>
                     </sup>
                   </Link>
-                  <Button variant="outline-secondary">
+                  <Link to="/login" className="btn btn-outline-secondary ">
                     Login <FontAwesomeIcon icon={faSignInAlt} />
-                  </Button>
+                  </Link>
                 </Nav>
               </Navbar.Collapse>
             </div>
